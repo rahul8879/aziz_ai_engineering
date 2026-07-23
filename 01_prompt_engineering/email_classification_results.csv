@@ -1,0 +1,6 @@
+,category,reason
+1,Billing,Invoice issue
+2,Billing,Request to update payment method for subscription.
+3,Billing,Request to cancel subscription
+4,Billing,Request for invoice not received
+5,Technical,The app crashes when performing a specific action (clicking Save).

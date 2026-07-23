@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "subject": "Invoice Discrepancy",
+    "sender": "finance@company.com",
+    "body": "My invoice is wrong, please fix it.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The request is straightforward and specifically asks for a billing issue to be resolved."
+  },
+  {
+    "id": 2,
+    "subject": "Need to Update Payment Method",
+    "sender": "billing@client.com",
+    "body": "I need to update my payment method for the subscription.",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The email clearly states the need to update payment information, making it easy to categorize."
+  },
+  {
+    "id": 3,
+    "subject": "Subscription Cancellation",
+    "sender": "support@business.com",
+    "body": "Please cancel my subscription immediately.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The intent is clear: the customer wants to cancel their subscription."
+  },
+  {
+    "id": 4,
+    "subject": "Invoice Not Received",
+    "sender": "admin@company.com",
+    "body": "I haven't received my latest invoice. Can you send it to me?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The request is simple and direct, asking for an invoice to be resent."
+  },
+  {
+    "id": 5,
+    "subject": "App Crashes on Save",
+    "sender": "dev@client.com",
+    "body": "The app crashes when I click Save. Please assist.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The email describes a specific technical issue, making it easy to identify."
+  },
+  {
+    "id": 6,
+    "subject": "Login Issues",
+    "sender": "user@company.com",
+    "body": "I can't log into my account. It keeps showing an error message.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The issue of logging in is clear and indicates a technical problem."
+  },
+  {
+    "id": 7,
+    "subject": "Feature Not Working",
+    "sender": "team@business.com",
+    "body": "The report generation feature is not working as expected.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The email specifies a feature-related technical problem, which is easy to classify."
+  },
+  {
+    "id": 8,
+    "subject": "App Freezing",
+    "sender": "user@client.com",
+    "body": "The app keeps freezing when I try to open it.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The description of the app freezing is a clear technical issue."
+  },
+  {
+    "id": 9,
+    "subject": "Request for Dark Mode",
+    "sender": "design@company.com",
+    "body": "Please add dark mode to the application.",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The request for a specific feature is straightforward and clear."
+  },
+  {
+    "id": 10,
+    "subject": "Add Custom Fields",
+    "sender": "pm@business.com",
+    "body": "Can we add custom fields to the project management tool?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The request clearly asks for a feature enhancement, making it easy to classify."
+  },
+  {
+    "id": 11,
+    "subject": "Integration with Slack",
+    "sender": "dev@team.com",
+    "body": "I would like to request an integration with Slack.",
+    "correct_label": "Feature Request",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "The email is a clear request for a new feature integration."
+  },
+  {
+    "id": 12,
+    "subject": "Search Function Improvement",
+    "sender": "user@company.com",
+    "body": "Could you improve the search function in the CRM?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The request is unambiguous and focuses on a particular improvement in functionality."
+  },
+  {
+    "id": 13,
+    "subject": "Transaction History Not Showing",
+    "sender": "finance@client.com",
+    "body": "My transaction history is not showing up in the account.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "This technical issue is clearly stated and directly relates to the software's functionality."
+  },
+  {
+    "id": 14,
+    "subject": "Forgot Password",
+    "sender": "user@company.com",
+    "body": "I forgot my password and need help resetting it.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The request for a password reset is clear and a common technical issue."
+  },
+  {
+    "id": 15,
+    "subject": "Payment Confirmation Request",
+    "sender": "accounts@company.com",
+    "body": "Can you confirm if my payment went through?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The email asks for a straightforward confirmation about a billing transaction."
+  },
+  {
+    "id": 16,
+    "subject": "Refund Status Inquiry",
+    "sender": "support@client.com",
+    "body": "What is the status of my refund request?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The email clearly inquires about the status of a billing-related issue."
+  },
+  {
+    "id": 17,
+    "subject": "Data Export Issue",
+    "sender": "admin@company.com",
+    "body": "I am having trouble exporting data from the system.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The problem presented is a technical issue related to data export, making it simple to categorize."
+  },
+  {
+    "id": 18,
+    "subject": "Report Format Change",
+    "sender": "manager@client.com",
+    "body": "Can you change the format of the report to PDF?",
+    "correct_label": "Feature Request",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "This request clearly specifies a desired change to a feature."
+  },
+  {
+    "id": 19,
+    "subject": "API Access Help",
+    "sender": "dev@business.com",
+    "body": "I need help accessing the API.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "The request for help with API access is straightforward and indicates a technical issue."
+  },
+  {
+    "id": 20,
+    "subject": "Subscription Invoice Not Correct",
+    "sender": "accounts@company.com",
+    "body": "The recent subscription invoice is not correct. Please check.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "This email clearly indicates a billing problem related to invoicing."
+  },
+  {
+    "id": 21,
+    "subject": "Twice the Charge, Half the Fun",
+    "sender": "customer1@company.com",
+    "body": "Wow, great job charging me twice this month. Do I get double the service for that? Fix this ASAP!",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The humor and sarcasm may obscure the urgent billing issue."
+  },
+  {
+    "id": 22,
+    "subject": "Invoice Confusion",
+    "sender": "billing@clientcompany.com",
+    "body": "I received my invoice, but I’m confused about some charges. Can you clarify this for me?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Vagueness in the request makes it harder to pinpoint the issue."
+  },
+  {
+    "id": 23,
+    "subject": "Is the System Down?",
+    "sender": "support@business.com",
+    "body": "Something is broken in the system. Can you get it fixed?",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The lack of specific details about the problem makes it hard to assess."
+  },
+  {
+    "id": 24,
+    "subject": "Unable to Access Account",
+    "sender": "user@company.com",
+    "body": "I can’t seem to access my account today. Please help!",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Common technical issue but lacks detail about the error encountered."
+  },
+  {
+    "id": 25,
+    "subject": "Data Export Feature Needed",
+    "sender": "manager@team.com",
+    "body": "I don’t understand why I can’t export data from the system. It’s quite limiting!",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "It reads like a complaint but is actually a feature request."
+  },
+  {
+    "id": 26,
+    "subject": "Need a Refund",
+    "sender": "client@business.com",
+    "body": "I was charged for a service I didn’t use. I expect my refund soon.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Assertive tone may make it sound like a complaint rather than a billing inquiry."
+  },
+  {
+    "id": 27,
+    "subject": "Feature Request: Gantt Charts",
+    "sender": "product@company.com",
+    "body": "Gantt charts would be a great addition. How come we don't have that yet?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Posed more as a complaint of the current service than a direct request."
+  },
+  {
+    "id": 28,
+    "subject": "Another Spam Email?",
+    "sender": "offers@random.com",
+    "body": "Get rich quick! Click here for more info!",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Clearly spam, but similar vagueness could confuse some filters."
+  },
+  {
+    "id": 29,
+    "subject": "Can’t Connect to Project",
+    "sender": "teamlead@clientcompany.com",
+    "body": "I can't seem to connect to my project. Something's off.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The vague expression of the issue lacks important details."
+  },
+  {
+    "id": 30,
+    "subject": "Feature Addition Idea",
+    "sender": "innovator@startup.com",
+    "body": "You really should consider adding a collaboration tool. It’s frustrating without it!",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Expressed frustration can make it seem like a complaint."
+  },
+  {
+    "id": 31,
+    "subject": "Re: Subscription Inquiry",
+    "sender": "auto-reply@company.com",
+    "body": "Hello, I am currently out of the office and will respond to your email upon my return.",
+    "correct_label": "Other",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "This is an auto-reply, making it straightforward to classify."
+  },
+  {
+    "id": 32,
+    "subject": "Looking for Help",
+    "sender": "randomuser@random.com",
+    "body": "Check out this amazing deal! You won't want to miss it!",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Clear spam but may confuse those focused on legitimate inquiries."
+  },
+  {
+    "id": 33,
+    "subject": "Out of Office",
+    "sender": "support@company.com",
+    "body": "I am out of the office until next week. Please contact another representative for immediate assistance.",
+    "correct_label": "Other",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Auto-replies are straightforward but can be mistaken for inquiries."
+  },
+  {
+    "id": 34,
+    "subject": "Need a Feature: Team Chat",
+    "sender": "dev@company.com",
+    "body": "Why doesn’t the tool have a team chat feature? It would be so useful!",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Complaining about the absence of a feature makes it less obvious."
+  },
+  {
+    "id": 35,
+    "subject": "Payment Issue",
+    "sender": "client@business.com",
+    "body": "I can’t believe you charged my card again for something I canceled last month.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The emotional tone can blur the line between complaint and inquiry."
+  },
+  {
+    "id": 36,
+    "subject": "System Error",
+    "sender": "user@business.com",
+    "body": "There’s something broken in your system that prevents me from logging in.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Lack of specifics makes it challenging to ascertain the exact issue."
+  },
+  {
+    "id": 37,
+    "subject": "I Want to Export My Data",
+    "sender": "director@company.com",
+    "body": "Why can’t I export my data? This is a major flaw in the system.",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Disguised as a complaint but is fundamentally a feature request."
+  },
+  {
+    "id": 38,
+    "subject": "Investment Opportunity",
+    "sender": "opportunity@scam.com",
+    "body": "You have been selected for an incredible investment opportunity! Click here!",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Obvious spam but could appear legitimate to less discerning users."
+  },
+  {
+    "id": 39,
+    "subject": "Account Locked",
+    "sender": "user@company.com",
+    "body": "My account is locked and I need immediate access!",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "A critical issue but vague about the details leading up to the lockout."
+  },
+  {
+    "id": 40,
+    "subject": "Help with Subscription",
+    "sender": "user@sample.com",
+    "body": "I am unsure if I am on the right subscription plan. Can you assist me with that?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Vague and lacks specific details about the subscription concern."
+  },
+  {
+    "id": 41,
+    "subject": "Urgent Payment Issue",
+    "sender": "finance@company.com",
+    "body": "I'm unable to log in, and it looks like we were charged twice for this month. Can you help?",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "This email presents a login issue alongside a billing error, making it hard to categorize."
+  },
+  {
+    "id": 42,
+    "subject": "Competitor Pricing Concerns",
+    "sender": "admin@company.com",
+    "body": "We've seen a 40% jump in pricing and are evaluating our options. What gives?",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The email hints at churn risk but lacks direct billing language, making it ambiguous."
+  },
+  {
+    "id": 43,
+    "subject": "API Limits Inquiry",
+    "sender": "dev@company.com",
+    "body": "Quick question about API limits — our payroll runs tonight and we need to ensure we're covered.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The urgency is tied to an API question, which may seem technical, but impacts overall operations."
+  },
+  {
+    "id": 44,
+    "subject": "Login Trouble Due to Payment",
+    "sender": "user@company.com",
+    "body": "I can't access my account because my payment failed. Can you sort this out?",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The login issue is directly caused by the billing problem, creating a nested issue."
+  },
+  {
+    "id": 45,
+    "subject": "Export Feature Missing",
+    "sender": "analyst@company.com",
+    "body": "I suppose I'll just work around your missing export feature, but it would be nice to have it.",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "The passive-aggressive tone complicates the request, making it hard to classify clearly."
+  },
+  {
+    "id": 46,
+    "subject": "Integration Issue",
+    "sender": "support@company.com",
+    "body": "We're facing issues with the integration, and it's affecting our workflow. Please advise.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "The lack of specifics in the issue makes it challenging to categorize effectively."
+  },
+  {
+    "id": 47,
+    "subject": "Feature Request for Enhanced Reporting",
+    "sender": "manager@company.com",
+    "body": "I need to be able to generate detailed reports, which is currently not possible. Can this be added?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "While it's a feature request, the urgency of needing reports makes it sound like a technical issue."
+  },
+  {
+    "id": 48,
+    "subject": "Reactivation and Billing",
+    "sender": "contact@company.com",
+    "body": "Our account was inactive, but now we're charged again. Can we reactivate without extra fees?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "The reactivation implies a context of prior service and billing confusion, complicating categorization."
+  },
+  {
+    "id": 49,
+    "subject": "Login Errors After Update",
+    "sender": "staff@company.com",
+    "body": "Since the last update, I can't log in. Did something change?",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The issue stems from a software update, making it a technical issue, but lacks explicit language."
+  },
+  {
+    "id": 50,
+    "subject": "Budgeting Concerns",
+    "sender": "finance@company.com",
+    "body": "We're evaluating our expenses as we're over our budget. Can you explain the recent price changes?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "It's a billing inquiry, but framed as a financial assessment, creating ambiguity in classification."
+  },
+  {
+    "id": 51,
+    "subject": "Feature Request Clarity",
+    "sender": "devteam@company.com",
+    "body": "We need better collaboration tools integrated. Can you clarify if this is in the roadmap?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "The request for clarification adds an element of urgency but remains a feature inquiry."
+  },
+  {
+    "id": 52,
+    "subject": "Payment Link Not Working",
+    "sender": "billing@company.com",
+    "body": "The payment link isn't working, and I need to log in to access certain features. Help!",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The login issue is dependent on the billing failure, creating a mixed categorization challenge."
+  },
+  {
+    "id": 53,
+    "subject": "API Processing Delay",
+    "sender": "developer@company.com",
+    "body": "We're experiencing delays with the API. What should we do? This is affecting our production.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The sense of urgency complicates the technical nature of the issue, making it hard to classify."
+  },
+  {
+    "id": 54,
+    "subject": "Project Management Tools Missing",
+    "sender": "product@company.com",
+    "body": "It seems like the project management tools are missing from the dashboard. Can this be rectified?",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "While it's a technical problem, the phrasing could imply a feature issue, blurring lines."
+  },
+  {
+    "id": 55,
+    "subject": "Unexpected Charges",
+    "sender": "operations@company.com",
+    "body": "I've noticed unexpected charges on our account this month. Can you investigate?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "The vague nature of 'unexpected charges' makes it difficult to pinpoint the exact concern."
+  },
+  {
+    "id": 56,
+    "subject": "Feedback on New Features",
+    "sender": "teamlead@company.com",
+    "body": "I have some feedback on the new features released last week. Can we discuss potential changes?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "While it’s a feedback request, it indirectly asks for changes, making it ambiguous."
+  },
+  {
+    "id": 57,
+    "subject": "Payment Authorization Confusion",
+    "sender": "admin@company.com",
+    "body": "I thought our payment was authorized, but my account shows otherwise. What’s happening?",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The confusion around payment affects access, complicating the classification as just billing."
+  },
+  {
+    "id": 58,
+    "subject": "Software Glitch",
+    "sender": "user@company.com",
+    "body": "There seems to be a glitch in the software. Can someone take a look at this ASAP?",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "The vague term 'glitch' doesn’t clearly define the issue, making it hard to categorize accurately."
+  },
+  {
+    "id": 59,
+    "subject": "Missing Features Post-Upgrade",
+    "sender": "manager@company.com",
+    "body": "After the last upgrade, I noticed missing functionalities. Can you clarify when these will be restored?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "It’s unclear if the issue is a missing feature or a technical problem, complicating classification."
+  },
+  {
+    "id": 60,
+    "subject": "Unclear Billing Cycle",
+    "sender": "contact@company.com",
+    "body": "I’m not clear on our billing cycle as it seems to have changed. Can you explain?",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "The lack of direct billing issue but a focus on understanding makes it harder to classify."
+  },
+  {
+    "id": 61,
+    "subject": "Mera account band ho gaya, please help",
+    "sender": "rahul@techstartup.in",
+    "body": "Mera account band ho gaya hai aur mujhe urgent access chahiye. Please jaldi se help karein.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The email mixes Hindi and English and conveys urgency, making it tricky to classify without context."
+  },
+  {
+    "id": 62,
+    "subject": "GST number not reflecting on invoice",
+    "sender": "anita@financesolutions.com",
+    "body": "Main apne invoices pe GST number nahi dekh paa rahi. Isko jaldi resolve karein, please.",
+    "correct_label": "Billing",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "Confusion over financial details and the importance of GST in Indian business can complicate classification."
+  },
+  {
+    "id": 63,
+    "subject": "UPI payment failed",
+    "sender": "suresh@logistics.co.in",
+    "body": "Meri UPI payment process nahi ho rahi thi. Aapka system kuch galat hai kya?",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Payment issues often require urgent attention but can blend into technical concerns."
+  },
+  {
+    "id": 64,
+    "subject": "Diwali season discount request",
+    "sender": "neha@consultingfirm.com",
+    "body": "Diwali season aane wala hai, kya aap koi discount offer kar sakte hain?",
+    "correct_label": "Billing",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "It's straightforward but hinges on promotional policies, which can vary."
+  },
+  {
+    "id": 65,
+    "subject": "NEFT not credited",
+    "sender": "vinayak@construction.com",
+    "body": "Maine NEFT kiya tha, par abhi tak amount credit nahi hua. Please check karein.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Requires investigation into financial transactions, making it complex."
+  },
+  {
+    "id": 66,
+    "subject": "Account accessibility issue",
+    "sender": "priya@marketplace.in",
+    "body": "Mere account se login nahi ho raha hai. Bahut zaruri kaam hai mujhe.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The urgency paired with technical issues can complicate resolutions."
+  },
+  {
+    "id": 67,
+    "subject": "Feature Request: Integration with Indian payment gateways",
+    "sender": "karthik@ecommerce.com",
+    "body": "Kya aap Indian payment gateways jaise Paytm aur PhonePe ke liye integration kar sakte hain? Yeh hamare liye useful hoga.",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Requires understanding of customer needs and potential development complexity."
+  },
+  {
+    "id": 68,
+    "subject": "Feature enhancement suggestion",
+    "sender": "deepak@healthtech.co.in",
+    "body": "Kya aap task reminders ko automate karne ki feature implement kar sakte hain? Yeh meri team ke liye helpful hoga.",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "The request is specific but could lead to varying interpretations of feasibility."
+  },
+  {
+    "id": 69,
+    "subject": "Urgent: Account suspension notice",
+    "sender": "manoj@itservices.in",
+    "body": "Mujhe email mila hai ki mera account suspend hone wala hai. Yeh samasya jaldi solve karen, please.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "It involves immediate action and potential repercussions for the sender."
+  },
+  {
+    "id": 70,
+    "subject": "Spam: Repeated promotional emails",
+    "sender": "fake@spam.com",
+    "body": "Unsubscribe my email address from your list.",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Straightforward and easy to classify as spam."
+  },
+  {
+    "id": 71,
+    "subject": "Need assistance with collaboration feature",
+    "sender": "sanjay@startup.co.in",
+    "body": "Collaboration tools ka use karne mein thoda struggle ho raha hai. Kya aap help kar sakte hain?",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Requires understanding of both user and tool to provide effective assistance."
+  },
+  {
+    "id": 72,
+    "subject": "Spam: Unrelated offers",
+    "sender": "noreply@offers.com",
+    "body": "Check out our offers on random products.",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Simple classification as spam due to irrelevant content."
+  },
+  {
+    "id": 73,
+    "subject": "Urgent need for feature update",
+    "sender": "aman@fintech.in",
+    "body": "Agar aapne feature update nahi kiya toh mujhe dusri service use karni padegi. Please jaldi update karein.",
+    "correct_label": "Feature Request",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "Urgency and potential consequences add complexity to the request."
+  },
+  {
+    "id": 74,
+    "subject": "Technical issue with reports",
+    "sender": "gita@analytics.in",
+    "body": "Reports open nahi ho rahe hain, mujhe urgent data chahiye. Isko resolve karein.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The need for urgent data complicates the issue classification."
+  },
+  {
+    "id": 75,
+    "subject": "Request for feature walkthrough",
+    "sender": "ajay@edtech.com",
+    "body": "Kya aap mujhe new features ka walkthrough de sakte hain? Mere team ko samajhne mein dikkat ho rahi hai.",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Involves understanding the complexity of new features which can vary."
+  },
+  {
+    "id": 76,
+    "subject": "Spam: Irrelevant marketing",
+    "sender": "subscribe@randommarketing.com",
+    "body": "You have been selected for special discounts!",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Clearly spam with no relevance to the recipient."
+  },
+  {
+    "id": 77,
+    "subject": "General feedback on UI",
+    "sender": "kiran@designstudio.in",
+    "body": "Aapka UI kaafi acha hai lekin kuch features use karna mushkil ho raha hai. Main is par feedback de sakta hoon?",
+    "correct_label": "Other",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Feedback can fit into multiple categories making it hard to assign a specific label."
+  },
+  {
+    "id": 78,
+    "subject": "Mera login nahi ho raha",
+    "sender": "sunil@consultancy.com",
+    "body": "Mujhe account access nahi ho raha hai, kya aap mujhe jaldi se help kar sakte hain?",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Mix of Hindi with urgency demands immediate assistance."
+  },
+  {
+    "id": 79,
+    "subject": "Need GST invoice update",
+    "sender": "mitali@travelagency.in",
+    "body": "Mera GST number invoices pe nahi dikha raha hai. Isko jaldi thik karein.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "hard",
+    "why_tricky": "Financial implications necessitate careful handling and urgency."
+  },
+  {
+    "id": 80,
+    "subject": "Request for API access",
+    "sender": "rahul@startuplogistics.in",
+    "body": "Kya aap mujhe API access de sakte hain? Mujhe jaldi se integration karna hai.",
+    "correct_label": "Feature Request",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Technical request with urgency for immediate integration makes it complex."
+  },
+  {
+    "id": 81,
+    "subject": "Billing Issue",
+    "sender": "client@example.com",
+    "body": "Need help with bill.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The email is very brief, making it unclear what specific issue the client is facing."
+  },
+  {
+    "id": 82,
+    "subject": "CAN'T BELIEVE YOU CHARGED ME!",
+    "sender": "angryclient@example.com",
+    "body": "THIS IS UNACCEPTABLE! FIX NOW!",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "All caps can indicate urgency but doesn't specify the nature of the billing issue."
+  },
+  {
+    "id": 83,
+    "subject": "Monthly Subscription",
+    "sender": "confuseduser@example.com",
+    "body": "Why is my account charged twice?",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "The wording may suggest confusion but can easily be interpreted as a complaint."
+  },
+  {
+    "id": 84,
+    "subject": "Cancellation Notice",
+    "sender": "client@example.com",
+    "body": "Last straw. Cancel my account.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "The direct cancellation threat makes it appear straightforward but lacks context about the billing issue."
+  },
+  {
+    "id": 85,
+    "subject": "Technical Glitch?",
+    "sender": "user@example.com",
+    "body": "My tasks aren’t saving.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "easy",
+    "why_tricky": "This could be a simple bug or a feature limitation, making classification unclear."
+  },
+  {
+    "id": 86,
+    "subject": "Need Assistance ASAP!",
+    "sender": "user@example.com",
+    "body": "The app crashes on login.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Urgent tone suggests a serious issue, but it's not clear if it's a server issue or user error."
+  },
+  {
+    "id": 87,
+    "subject": "App Broken?",
+    "sender": "user@example.com",
+    "body": "Tasks don't appear after refresh.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "hard",
+    "why_tricky": "Looks like a bug but could be a misunderstanding of features; context is needed."
+  },
+  {
+    "id": 88,
+    "subject": "Rejected Email",
+    "sender": "user@example.com",
+    "body": "Just a test email.",
+    "correct_label": "Other",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "The sender indicates it's just a test, making it difficult to categorize as a legitimate inquiry."
+  },
+  {
+    "id": 89,
+    "subject": "Request for New Feature",
+    "sender": "user@example.com",
+    "body": "Can you fix the export feature?",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Disguised as a technical issue, it actually suggests a desired feature improvement."
+  },
+  {
+    "id": 90,
+    "subject": "Recurring Issue",
+    "sender": "user@example.com",
+    "body": "Tasks disappear regularly.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Could be perceived as a feature complaint or a serious technical issue, leading to confusion."
+  },
+  {
+    "id": 91,
+    "subject": "Lost Invoice",
+    "sender": "user@example.com",
+    "body": "Need past invoices.",
+    "correct_label": "Other",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "The lack of detail makes it appear unimportant, yet it may be critical for billing clarification."
+  },
+  {
+    "id": 92,
+    "subject": "New Features You Need!",
+    "sender": "SalesGuru@example.com",
+    "body": "Don't miss our latest offers!",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "medium",
+    "why_tricky": "The subject and content suggest spam, yet it might convey legitimate insights about product features."
+  },
+  {
+    "id": 93,
+    "subject": "Migration Help",
+    "sender": "anotheruser@example.com",
+    "body": "Needed more help on migration.",
+    "correct_label": "Technical",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "Could be a straightforward support request or a vague mention of ongoing technical issues."
+  },
+  {
+    "id": 94,
+    "subject": "FW: Project Update",
+    "sender": "wrongteam@example.com",
+    "body": "Please see attached for review.",
+    "correct_label": "Other",
+    "urgency": "Low",
+    "difficulty": "easy",
+    "why_tricky": "Forwarded email with no context makes it ambiguous and potentially irrelevant to support."
+  },
+  {
+    "id": 95,
+    "subject": "Feature Bug",
+    "sender": "user@example.com",
+    "body": "Export doesn't work properly.",
+    "correct_label": "Feature Request",
+    "urgency": "Medium",
+    "difficulty": "medium",
+    "why_tricky": "While it sounds like a bug report, it actually hints at the need for a feature enhancement."
+  },
+  {
+    "id": 96,
+    "subject": "New Client Inquiry",
+    "sender": "client@example.com",
+    "body": "Can you send me more info?",
+    "correct_label": "Other",
+    "urgency": "Low",
+    "difficulty": "medium",
+    "why_tricky": "Vague enough to be classified as an inquiry or spam; lacks clear intent."
+  },
+  {
+    "id": 97,
+    "subject": "Report Missing Data",
+    "sender": "user@example.com",
+    "body": "Data not showing in report.",
+    "correct_label": "Technical",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Appears to be a technical issue, yet might be an incorrect usage of the reporting feature."
+  },
+  {
+    "id": 98,
+    "subject": "WE NEED TO TALK!",
+    "sender": "angrycustomer@example.com",
+    "body": "I'm done with your service!",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "medium",
+    "why_tricky": "Strong emotional language points towards billing, but lacks specificity about the actual issues."
+  },
+  {
+    "id": 99,
+    "subject": "Urgent Billing Issue",
+    "sender": "client@example.com",
+    "body": "Need refund for last month.",
+    "correct_label": "Billing",
+    "urgency": "High",
+    "difficulty": "easy",
+    "why_tricky": "Straightforward request but urgency raises questions about what led to the refund request."
+  },
+  {
+    "id": 100,
+    "subject": "Spam or Not?",
+    "sender": "legituser@example.com",
+    "body": "Check this out for you.",
+    "correct_label": "Spam",
+    "urgency": "Low",
+    "difficulty": "hard",
+    "why_tricky": "Subject and body appear spam-like, but it’s actually a legitimate request to share an important resource."
+  }
+]

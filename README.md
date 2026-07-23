@@ -5,3 +5,6 @@ python3 -m venv ai-env
 
 # To create the api key for open ai models 
 https://platform.openai.com/home
+
+# List of model availble in Opeai
+https://developers.openai.com/api/docs/models
