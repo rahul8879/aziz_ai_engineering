@@ -18,7 +18,7 @@ for i in emails[:5]:
     body = i['body']
     prompt = f"""
     You are an expert support email classifier 
-   for a SaaS product company
+    for a SaaS product company
     Please classify my email.
                 Category should be as follow only.
                 - Billing
