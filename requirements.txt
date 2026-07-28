@@ -3,3 +3,6 @@ python-dotenv
 pandas 
 numpy 
 seaborn
+langchain
+langchain_core
+langchain_openai
