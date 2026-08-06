@@ -1,0 +1,32 @@
+{
+  "loans": {
+    "BFL2024001": {
+      "customer_name": "Rahul Tiwari",
+      "loan_type": "Personal Loan",
+      "principal": 500000,
+      "emi": 8450,
+      "tenure_months": 72,
+      "paid_months": 50,
+      "remaining_months": 22,
+      "outstanding": 185900,
+      "interest_rate": 11.5,
+      "next_due_date": "2026-05-05",
+      "prepayment_allowed": true,
+      "prepayment_charge_pct": 2.0
+    },
+    "BFL9988": {
+      "customer_name": "Priya Mehta",
+      "loan_type": "Home Loan",
+      "principal": 2500000,
+      "emi": 24500,
+      "tenure_months": 240,
+      "paid_months": 36,
+      "remaining_months": 204,
+      "outstanding": 2180000,
+      "interest_rate": 8.75,
+      "next_due_date": "2026-05-10",
+      "prepayment_allowed": true,
+      "prepayment_charge_pct": 0.0
+    }
+  }
+}

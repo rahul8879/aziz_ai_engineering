@@ -74,5 +74,7 @@ while True:
     if user_input.lower() == "exit":
         break
     r = emails_chain.invoke({"input": user_input}, config=cfg)
+    
     print('AI:', r)
+    print('store:', store['123rahul'].messages)  # Print the messages for the current session
     
