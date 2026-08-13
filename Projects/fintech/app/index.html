@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #chatLog {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+        }
+        #userMessage {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 15px;
+        }
+    </style>
+    <script>
+        async function sendMessage() {
+            const userMessage = document.getElementById("userMessage").value;
+            const response = await fetch("/chat?user_message=" + encodeURIComponent(userMessage) + "&session_id=default");
+            const data = await response.json();
+            document.getElementById("chatLog").innerHTML += "<div>User: " + userMessage + "</div>";
+            document.getElementById("chatLog").innerHTML += "<div>AI: " + data.response + "</div>";
+        }
+    </script>
+</head>
+<body>
+    <div id="chatLog" style="border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll;"></div>
+    <input type="text" id="userMessage" placeholder="Type your message here..." />
+    <button onclick="sendMessage()">Send</button>
+</body>
+</html>

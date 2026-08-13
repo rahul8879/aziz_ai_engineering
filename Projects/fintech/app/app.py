@@ -59,7 +59,6 @@ def run_chat_turn(user_message:str,session_id):
             tool_name = tool_call["name"]
             tool_args = tool_call["args"]
             tools_used.append(tool_name)
-
             tool_fn = tool_map.get(tool_name)
             if tool_fn:
                 result = tool_fn.invoke(tool_args)
@@ -78,11 +77,3 @@ def run_chat_turn(user_message:str,session_id):
 
     return response.content, tools_used
 
-
-while True:
-    user_input = input("You: ")
-    if user_input.lower() == "exit":
-        break
-    response, tools_used = run_chat_turn(user_input, session_id="default")
-    print("AI:", response)
-    print("Tools used:", tools_used)
