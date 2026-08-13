@@ -74,6 +74,5 @@ def run_chat_turn(user_message:str,session_id):
 
     history.add_user_message(user_message)
     history.add_ai_message(response.content)
-
     return response.content, tools_used
 
