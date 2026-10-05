@@ -1,7 +1,15 @@
-from fastapi import FastAPI
+import os
+import uuid
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
+from pydantic import BaseModel
+from typing import Optional
+from dotenv import load_dotenv
+load_dotenv()
 from fastapi.middleware.cors import CORSMiddleware
-from app import run_chat_turn
+
+from app import run_chat_turn,classify_query,run_policy_run,run_general_turn
+
 app = FastAPI(title="Fintech API", version="1.0.0")
 
 # you need to handle cross origin
@@ -13,13 +21,40 @@ app.add_middleware(
 )
 
 
+class ChatRequest(BaseModel):
+    message: str
+    session_id: Optional[str] = None  # None = new session
+
+class ChatResponse(BaseModel):
+    reply: str
+    session_id: str
+    query_type: str
+    tools_called: list[str] = []
+
+
+
+
 @app.get("/")
 def home():
     # you can return the html page
     return HTMLResponse(content=open("index.html").read())
 
 
-@app.get("/chat")
-def chat(user_message: str, session_id: str):
-    response = run_chat_turn(user_message, session_id)
-    return {"response": response}
+
+@app.post('/chat',response_model=ChatResponse)
+def chat(req:ChatRequest):
+    session_id = str(uuid.uuid4())
+    query_type = classify_query(req.message)
+
+    if query_type == "tool":
+        reply, tool_called = run_chat_turn(req.message,req.session_id)
+        return ChatResponse(reply=reply, session_id=session_id, tools_called=tool_called,
+                            query_type=query_type)
+    elif query_type == "policy":
+        reply = run_policy_run(req.message,req.session_id)
+        return ChatResponse(reply=reply, session_id=session_id, query_type=query_type)
+    
+    else:
+        reply = run_general_turn(req.message,req.session_id)
+        return ChatResponse(reply=reply, session_id=session_id, query_type=query_type)
+
