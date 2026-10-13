@@ -12,7 +12,7 @@ from rag_chain import rag_answer
 from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(model="gpt-4o-mini")
 
-
+# Phase 0 
 tools = [get_loan_status, get_emi_schedule, process_refund_request, calculate_prepayment]
 llm_with_tools = llm.bind_tools(tools)
 # print(response)

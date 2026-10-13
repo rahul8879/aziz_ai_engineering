@@ -82,5 +82,3 @@ def rag_answer(query, chat_history=[]):
     return rag_chain.invoke({"query": query, "chat_history": chat_history})
 
 
-result = rag_answer("what is interest rate for personal loan?", [])
-print(result)
