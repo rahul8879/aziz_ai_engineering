@@ -26,8 +26,11 @@ from config import settings
 
 
 def verify_pinecone(candidate_id: str):
+    print('called verify method')
     pc = Pinecone(api_key=settings.pinecone_api_key)
     index = pc.Index(settings.pinecone_index_name)
+    print('Verifying Pinecone ingestion...')
+    print(index.list())
 
     stats = index.describe_index_stats()
     print(f"\n  Total vectors in index: {stats.total_vector_count}")

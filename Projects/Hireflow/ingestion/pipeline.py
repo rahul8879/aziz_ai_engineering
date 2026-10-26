@@ -46,12 +46,14 @@ def ingest_resume(file_path: str) -> dict:
 
     # Step 6 — Build metadata list + upsert
     metadata_list = [node.metadata for node in nodes]
+    print('before upsert_chunks')
     upsert_chunks(
         candidate_id=candidate_id,
         chunks=chunk_texts,
         embeddings=embeddings,
         metadata_list=metadata_list,
     )
+    print('after upsert_chunks')
 
     result = {
         "file_name": file_name,

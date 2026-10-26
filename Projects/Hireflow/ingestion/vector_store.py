@@ -26,6 +26,7 @@ def upsert_chunks(
     Returns count of upserted vectors.
     """
     index = _get_index()
+    print('inside upsert method')
 
     vectors = []
     for i, (chunk, embedding, meta) in enumerate(

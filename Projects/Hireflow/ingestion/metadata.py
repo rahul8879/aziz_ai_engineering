@@ -21,6 +21,7 @@ def extract_email_regex(text: str) -> Optional[str]:
     """
     pattern = r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
     matches = re.findall(pattern, text)
+
     if matches:
         return matches[0].lower().strip()
     return None
@@ -67,6 +68,7 @@ def extract_email(text: str) -> Optional[str]:
     1. Try regex first (fast, free)
     2. Fallback to LLM if regex fails
     """
+    # print('input text:', text   )
     email = extract_email_regex(text)
     if email:
         return email
