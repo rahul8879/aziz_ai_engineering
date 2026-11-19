@@ -8,3 +8,4 @@ langchain_core
 langchain_openai
 uvicorn 
 fastapi
+llama-index-readers-file
